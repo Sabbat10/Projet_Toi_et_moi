@@ -14,7 +14,7 @@
    
     <header class=" sticky-top text-center">
         <div class="titre">
-            <h1>To! et Mo!*</h1>
+            <h1>To! et Moi*</h1>
         </div>
         <div class="search"></div>
     </header>

@@ -10,6 +10,12 @@
     --blue: #591FCE;
     --red: #DE4242;
 } 
+* a{
+    text-decoration: none;
+}
+* ul li {
+   list-style: none;
+}
 /* Partie inscription*/
 body {
     background-color: var(--blue);
@@ -20,7 +26,7 @@ title {
     font-family: var(--policelogo);
 }
 header{
-    padding: 10px;
+    /* padding: 10px; */
     background-color: var(--black);
     color: var(--yellow);
     font-family: var(--policelogo);
@@ -33,13 +39,16 @@ header{
 }
 .description{
     padding: 15px;
-    text-align: justify;
+    /* text-align: justify; */
     color: white;
     margin-bottom: 15px;
     text-align: center;
 }
 .description h2{
     text-align: center;
+}
+p{
+    text-align: justify;
 }
 .card {
     margin-top: 15px;
@@ -87,10 +96,23 @@ footer {
     padding: 5px 15px;
     border-radius: 5px;
 }
+.logo h4 a{
+    background-color: var(--black);
+    color: var(--yellow);
+    font-family: var(--policelogo);
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
 footer .container p a{
     font-weight: bold;
     padding: 20px;
     text-decoration: none;
 }
-
-/*Media querrie partie Inscription */
+footer ul li a{
+    padding-right: 20px;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+    color: var(--blue);
+}

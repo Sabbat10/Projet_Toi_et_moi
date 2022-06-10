@@ -16,7 +16,6 @@
         <div class="titre">
             <h1>To! et Mo!*</h1>
         </div>
-        <div class="search"></div>
     </header>
 
    <div id="#container" class="container align-self-center">
